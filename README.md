@@ -1,6 +1,9 @@
-# cad-stirling-beta-engine
+# 3D CAD MODELING OF A BETA STIRLING ENGINE
 
-INTRODUCTION
+_____________________________________________________________________________________________________________________________________________
+
+
+## INTRODUCTION
 
 Hello, nice to meet you all. In the following repository, I’m sharing a 3D CAD model of a Beta-type Stirling engine. It’s a small personal project motivated by my desire to explore some parametric design methodologies—and as a hobby.
 
