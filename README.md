@@ -37,4 +37,26 @@ INSERTAR IMAGEN 1
 
 A partir de los planos del motor Stirling, se realiza un Base Sketch en el plano principal XZ con la geometría principal de la pieza, con la finalidad de realizar posteriormente la extrusión, corte y orificios frontales.
 
-### STEP 2: Creación de Workplanes para realizar extrusión frontal y orificios laterales
+
+### STEP 2. Creación de Workplanes para realizar extrusión y corte frontal, asi como orificios laterales:
+
+INSERTAR IMAGEN 6 Y 7
+
+Se crean Workplanes con las medidas que dan la profundidad o longitud en los comandos de extrusion, corte y Holes. Estos Workplanes van referenciados a los planos principales XY, XZ y YZ.
+
+
+### STEP 3. Creación de bocetos para orificios laterales:
+
+INSERTAR IMAGEN 8 Y 9
+
+Los bocetos para orificios laterales deben ser referenciados a workplanes. Ver la imagen del feature tree en la que se identifica con nombres sencillos de reconocer y que van asociados al tipo de operación hacia la cual van dirigidos.
+
+
+### STEP 4. Extrusión de geometría principal:
+
+INSERTAR 10 Y 11
+
+Se realiza la extrusión de la geometría principal a partir del Base Sketch y del BaseExtrusion_Plane. Cabe destacar que el espesor de la extrusión es controlado por el workplane y no por una medida o parámetro en específico dentro del panel de Extrusión; si se quiere modificar el espesor, se debe variar el parámetro o medida editando el workplane.
+
+
+### STEP 5. 
