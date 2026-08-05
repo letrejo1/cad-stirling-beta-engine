@@ -46,38 +46,38 @@ INSERTAR IMAGEN 6 Y 7
 Workplanes are created with dimensions that define the depth or length of extrusion, cutting, and hole operations (front and lateral holes). These workplanes are referenced to the main XY, XZ, and YZ planes.
 
 
-### STEP 3. Creación de bocetos para orificios laterales:
+### STEP 3. Creating sketches for side holes:
 
 INSERTAR IMAGEN 8 Y 9
 
-Los bocetos para orificios laterales deben ser referenciados a workplanes. Ver la imagen del feature tree en la que se identifica con nombres sencillos de reconocer y que van asociados al tipo de operación hacia la cual van dirigidos.
+Sketches for side holes must be referenced to workplanes. See the feature tree image, where they are identified with easy-to-recognize names.
 
 
-### STEP 4. Extrusión de geometría principal:
+### STEP 4. Extrusion:
 
 INSERTAR 10 Y 11
 
-Se realiza la extrusión de la geometría principal a partir del Base Sketch y del BaseExtrusion_Plane. Cabe destacar que el espesor de la extrusión es controlado por el workplane y no por una medida o parámetro en específico dentro del panel de Extrusión; si se quiere modificar el espesor, se debe variar el parámetro o medida editando el workplane.
+The main geometry is extruded from the Base Sketch and the BaseExtrusion_Plane. It is important to note that the thickness of the extrusion is controlled by the workplane and not by a specific number or parameter in the Extrude panel; if you want to change the thickness, you must edit the workplane.
 
 
 ### STEP 5. Middle cut:
 
 INSERTAR 12 13 Y 14
 
-Se realiza un corte en el medio de la pieza usando el base sketch y el BaseExtrusion_Plane.
+A cut is made through the center of the part using the Base Sketch and BaseExtrusion_Plane.
 
 
 ###  STEP 6. Holes:
 
 INSERTAR 15 16 y 17
 
-Se crean orificios a partir de los sketch y workplanes. Durante la ejecución del comando se indica el diámetro y tipo de rosca si aplica. De igual forma, en el feature tree se colocan las dimensiones asociadas a los orificios creados.
+Holes are created based on the previous sketches and workplanes. When the command is executed, the diameter and thread type (if applicable) are specified. Similarly, the dimensions associated with the created holes are indicated in the feature tree.
 
 
 ### STEP 7. Chamfers:
 
 INSERTAR 18 Y 19
 
-Por último, se añaden elementos estéticos o de detalle, tales como los chamfers. Este tipo de feature, de acuerdo a mi experiencia, suele dar muchos problemas si no esta correctamente referenciado, por eso la estrategia de modelado indica que se debe realizar como paso final.
+Finally, aesthetic or detail elements, such as chamfers, are added. In my experience, this type of feature tends to cause a lot of problems if it isn't properly referenced, which is why the modeling strategy specifies that it should be done as the final step.
 
 
