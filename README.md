@@ -27,22 +27,23 @@ Take for example the next part, a Balanced Crank:
 
 INSERTAR IMAGEN 1 y 2
 
-Se puede apreciar en las imágenes el modelo 3D final. La geometría principal y ubicación de los orificios frontales se especifica mediante un Base Sketch. La pieza también presenta orificios laterales y chaflanes en su perímetro. La estrategia de modelado requiere que los sketchs sean referenciados a los planos principales o planos de trabajo creados por el usuario; también, es necesario que las operaciones de extrusión, corte y orificios sean referenciados a planos y no a dimensiones particulares.
+The final 3D model can be seen in the images. The main geometry, as well as the location of the front holes, is specified using a Base Sketch. The part also features side holes and chamfers along its perimeter. The modeling strategy requires that sketches be referenced to the main planes or user-defined working planes; furthermore, extrusion, cut, and hole operations must be referenced to sketches and planes, rather than to specific dimensions.
 
-Para entender mejor la secuencia y jerarquía de las operaciones, a continuación se mostrara imágenes del modelo paso a paso.
+To better understand the sequence and hierarchy of the operations, images and a step-by-step explanation of the modeling process are provided below.
 
-### STEP 1: Base Sketch
+
+### STEP 1. Base Sketch creation:
 
 INSERTAR IMAGEN 1
 
-A partir de los planos del motor Stirling, se realiza un Base Sketch en el plano principal XZ con la geometría principal de la pieza, con la finalidad de realizar posteriormente la extrusión, corte y orificios frontales.
+A Base Sketch is created in the main XZ plane using the Stirling engine drawings (Darlington, Strong) as a reference. This sketch defines the part’s main geometry, from which material is added using extrusion operations. It also allows you to define sections of the part that will later be cut away or where holes will be added.
 
 
-### STEP 2. Creación de Workplanes para realizar extrusión y corte frontal, asi como orificios laterales:
+### STEP 2. Workplanes:
 
 INSERTAR IMAGEN 6 Y 7
 
-Se crean Workplanes con las medidas que dan la profundidad o longitud en los comandos de extrusion, corte y Holes. Estos Workplanes van referenciados a los planos principales XY, XZ y YZ.
+Workplanes are created with dimensions that define the depth or length of extrusion, cutting, and hole operations (front and lateral holes). These workplanes are referenced to the main XY, XZ, and YZ planes.
 
 
 ### STEP 3. Creación de bocetos para orificios laterales:
@@ -59,4 +60,24 @@ INSERTAR 10 Y 11
 Se realiza la extrusión de la geometría principal a partir del Base Sketch y del BaseExtrusion_Plane. Cabe destacar que el espesor de la extrusión es controlado por el workplane y no por una medida o parámetro en específico dentro del panel de Extrusión; si se quiere modificar el espesor, se debe variar el parámetro o medida editando el workplane.
 
 
-### STEP 5. 
+### STEP 5. Middle cut:
+
+INSERTAR 12 13 Y 14
+
+Se realiza un corte en el medio de la pieza usando el base sketch y el BaseExtrusion_Plane.
+
+
+###  STEP 6. Holes:
+
+INSERTAR 15 16 y 17
+
+Se crean orificios a partir de los sketch y workplanes. Durante la ejecución del comando se indica el diámetro y tipo de rosca si aplica. De igual forma, en el feature tree se colocan las dimensiones asociadas a los orificios creados.
+
+
+### STEP 7. Chamfers:
+
+INSERTAR 18 Y 19
+
+Por último, se añaden elementos estéticos o de detalle, tales como los chamfers. Este tipo de feature, de acuerdo a mi experiencia, suele dar muchos problemas si no esta correctamente referenciado, por eso la estrategia de modelado indica que se debe realizar como paso final.
+
+
