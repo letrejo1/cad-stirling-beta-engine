@@ -39,20 +39,23 @@ The final 3D model can be seen in the images with its feature tree. The main geo
 
 To better understand the sequence and hierarchy of the operations, images and a step-by-step explanation of the modeling process are provided below.
 
+_____________________________________________________________________________________________________________________________________________
 
-### STEP 1. Base Sketch creation:
-
-INSERTAR IMAGEN 1
+### STEP 1. Base Sketch:
 
 A Base Sketch is created in the main XZ plane using the Stirling engine drawings (Darlington, Strong) as a reference. This sketch defines the part’s main geometry, from which material is added using extrusion operations. It also allows you to define sections of the part that will later be cut away or where holes will be added.
 
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%201%20-%20Base_Sketch.JPG)
+_____________________________________________________________________________________________________________________________________________
 
 ### STEP 2. Workplanes:
 
-INSERTAR IMAGEN 6 Y 7
-
 Workplanes are created with dimensions that define the depth or length of extrusion, cutting, and hole operations (front and lateral holes). These workplanes are referenced to the main XY, XZ, and YZ planes.
 
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%202.0%20-%20Workplanes.JPG)
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%202.1%20-%20Workplanes.JPG)
+_____________________________________________________________________________________________________________________________________________
 
 ### STEP 3. Creating sketches for side holes:
 
@@ -60,6 +63,7 @@ INSERTAR IMAGEN 8 Y 9
 
 Sketches for side holes must be referenced to workplanes. See the feature tree image, where they are identified with easy-to-recognize names.
 
+_____________________________________________________________________________________________________________________________________________
 
 ### STEP 4. Extrusion:
 
@@ -67,6 +71,7 @@ INSERTAR 10 Y 11
 
 The main geometry is extruded from the Base Sketch and the BaseExtrusion_Plane. It is important to note that the thickness of the extrusion is controlled by the workplane and not by a specific number or parameter in the Extrude panel; if you want to change the thickness, you must edit the workplane.
 
+_____________________________________________________________________________________________________________________________________________
 
 ### STEP 5. Middle cut:
 
@@ -74,6 +79,7 @@ INSERTAR 12 13 Y 14
 
 A cut is made through the center of the part using the Base Sketch and BaseExtrusion_Plane.
 
+_____________________________________________________________________________________________________________________________________________
 
 ###  STEP 6. Holes:
 
@@ -81,6 +87,7 @@ INSERTAR 15 16 y 17
 
 Holes are created based on the previous sketches and workplanes. When the command is executed, the diameter and thread type (if applicable) are specified. Similarly, the dimensions associated with the created holes are indicated in the feature tree.
 
+_____________________________________________________________________________________________________________________________________________
 
 ### STEP 7. Chamfers:
 
