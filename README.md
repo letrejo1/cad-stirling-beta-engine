@@ -26,8 +26,13 @@ The process begins with constructive or wireframe sketches, which allow material
 Take for example the next part, a Balanced Crank:
 
 INSERTAR IMAGEN 1 y 2
+!(https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Final_Model%201.JPG)
+!(https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Final_Model%202.JPG)
+!(https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Final_Model%203.JPG)
+!(https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Final_Model%204.JPG)
+!(https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Final_Model%205.JPG)
 
-The final 3D model can be seen in the images. The main geometry, as well as the location of the front holes, is specified using a Base Sketch. The part also features side holes and chamfers along its perimeter. The modeling strategy requires that sketches be referenced to the main planes or user-defined working planes; furthermore, extrusion, cut, and hole operations must be referenced to sketches and planes, rather than to specific dimensions.
+The final 3D model can be seen in the images with its feature tree. The main geometry, as well as the location of the front holes, is specified using a Base Sketch. The part also features side holes and chamfers along its perimeter. The modeling strategy requires that sketches be referenced to the main planes or user-defined working planes; furthermore, extrusion, cut, and hole operations must be referenced to sketches and planes, rather than to specific dimensions.
 
 To better understand the sequence and hierarchy of the operations, images and a step-by-step explanation of the modeling process are provided below.
 
