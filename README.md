@@ -24,6 +24,13 @@ In an era where the focus and new developments center on electric motors and bat
 
 The parts were modeled in Autodesk Inventor version 2021, following certain guidelines of a methodology called “Resilient Modeling Strategy” or “Resilient CAD Modeling,” which aims to create robust digital models that are easy to edit, with a feature tree organized according to a hierarchy and sequence of actions. I would like to thank industry experts such as Richard Gebhard (Assembly Technology Inc.) and Rafael Testai (SolidWorks Content Creator), who taught the most important aspects of this method through videos and webinars.
 
+A RAR archive called "Final_Project" containing the CAD model has been added to the repository; this archive includes the .ipt part files, the .iam assembly file, and the .ipj project file for viewing in their native formats.
+
+I am also including the following link to Autodesk Viewer for viewing the files in a web browser:
+https://autode.sk/3TwZs9v
+
+The “images” folder contains several illustrations of the CAD model, as well as a video showing the piston-connecting rod mechanism in motion.
+
 _____________________________________________________________________________________________________________________________________________
 
 ## SOME ASPECTS RELATED TO THE MODELING STRATEGY
@@ -117,5 +124,16 @@ Finally, aesthetic or detail elements, such as chamfers, are added. In my experi
 ![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%207.0%20-%20Chamfers.JPG)
 
 ![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%207.1%20-%20Chamfers.JPG)
+
+_____________________________________________________________________________________________________________________________________________
+
+## REFERENCES
+
+"Stirling Hot Air Engines". Darlington, Roy; Strong, Keith. The Crowood Press Ltd. 2005
+
+"A Resilient Modeling Strategy", Richard Gebhard video presentation. Link: https://www.youtube.com/watch?v=QGj3hwtyZxQ
+
+"Resilient CAD Modeling Techniques", Rafael Testai video presentation. Link: https://www.youtube.com/watch?v=99KNcfx2M0w
+
 
 
