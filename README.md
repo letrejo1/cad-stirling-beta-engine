@@ -27,7 +27,7 @@ Take for example the next part, a Balanced Crank:
 
 INSERTAR IMAGEN 1 y 2
 
-!(/images/Final_Model%201.JPG)
+!(cad-stirling-beta-engine/blob/main/images/Final_Model%201.JPG)
 
 The final 3D model can be seen in the images with its feature tree. The main geometry, as well as the location of the front holes, is specified using a Base Sketch. The part also features side holes and chamfers along its perimeter. The modeling strategy requires that sketches be referenced to the main planes or user-defined working planes; furthermore, extrusion, cut, and hole operations must be referenced to sketches and planes, rather than to specific dimensions.
 
