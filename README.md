@@ -6,6 +6,14 @@ ________________________________________________________________________________
 
 Hello, nice to meet you all. In the following repository, I’m sharing a 3D CAD model of a Beta-type Stirling engine. It’s a small personal project motivated by my desire to explore some parametric design methodologies—and as a hobby.
 
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Render_1.jpg)
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Render_2.JPG)
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Render_3.JPG)
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Render_4.JPG)
+
 Years ago, for my college thesis project, I developed a proposal for a test bench and sensor selection for a Stirling engine. Although that project never came to fruition, it taught me a lot and sparked a lasting interest in these topics.
 
 I used the construction drawings from the book "Stirling Hot Air Engines" by Roy Darlington and Keith Strong as a reference. Some parts, such as the piston connecting rod and crank mechanisms, were modified in the model to prevent interference with both the inner walls of the cylinders and the housing.
