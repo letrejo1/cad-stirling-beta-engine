@@ -16,7 +16,6 @@ In an era where the focus and new developments center on electric motors and bat
 
 The parts were modeled in Autodesk Inventor version 2021, following certain guidelines of a methodology called “Resilient Modeling Strategy” or “Resilient CAD Modeling,” which aims to create robust digital models that are easy to edit, with a feature tree organized according to a hierarchy and sequence of actions. I would like to thank industry experts such as Richard Gebhard (Assembly Technology Inc.) and Rafael Testai (SolidWorks Content Creator), who taught the most important aspects of this method through videos and webinars.
 
-
 _____________________________________________________________________________________________________________________________________________
 
 ## SOME ASPECTS RELATED TO THE MODELING STRATEGY
@@ -46,6 +45,7 @@ ________________________________________________________________________________
 A Base Sketch is created in the main XZ plane using the Stirling engine drawings (Darlington, Strong) as a reference. This sketch defines the part’s main geometry, from which material is added using extrusion operations. It also allows you to define sections of the part that will later be cut away or where holes will be added.
 
 ![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%201%20-%20Base_Sketch.JPG)
+
 _____________________________________________________________________________________________________________________________________________
 
 ### STEP 2. Workplanes:
@@ -55,44 +55,59 @@ Workplanes are created with dimensions that define the depth or length of extrus
 ![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%202.0%20-%20Workplanes.JPG)
 
 ![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%202.1%20-%20Workplanes.JPG)
+
 _____________________________________________________________________________________________________________________________________________
 
-### STEP 3. Creating sketches for side holes:
-
-INSERTAR IMAGEN 8 Y 9
+### STEP 3. Side Holes Sketches:
 
 Sketches for side holes must be referenced to workplanes. See the feature tree image, where they are identified with easy-to-recognize names.
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%203.0%20-%20Side_Holes_Sketch.JPG)
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%203.1%20-%20Side_Holes_Sketch.JPG)
 
 _____________________________________________________________________________________________________________________________________________
 
 ### STEP 4. Extrusion:
 
-INSERTAR 10 Y 11
-
 The main geometry is extruded from the Base Sketch and the BaseExtrusion_Plane. It is important to note that the thickness of the extrusion is controlled by the workplane and not by a specific number or parameter in the Extrude panel; if you want to change the thickness, you must edit the workplane.
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%204.0%20-%20Extrusion.JPG)
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%204.1%20-%20Extrusion.JPG)
 
 _____________________________________________________________________________________________________________________________________________
 
-### STEP 5. Middle cut:
-
-INSERTAR 12 13 Y 14
+### STEP 5. Middle Cut:
 
 A cut is made through the center of the part using the Base Sketch and BaseExtrusion_Plane.
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%205.0%20-%20Cut.JPG)
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%205.1%20-%20Cut.JPG)
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%205.2%20-%20Cut.JPG)
 
 _____________________________________________________________________________________________________________________________________________
 
 ###  STEP 6. Holes:
 
-INSERTAR 15 16 y 17
-
 Holes are created based on the previous sketches and workplanes. When the command is executed, the diameter and thread type (if applicable) are specified. Similarly, the dimensions associated with the created holes are indicated in the feature tree.
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%206.0%20-%20Holes.JPG)
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%206.1%20-%20Holes.JPG)
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%206.2%20-%20Holes.JPG)
 
 _____________________________________________________________________________________________________________________________________________
 
 ### STEP 7. Chamfers:
 
-INSERTAR 18 Y 19
-
 Finally, aesthetic or detail elements, such as chamfers, are added. In my experience, this type of feature tends to cause a lot of problems if it isn't properly referenced, which is why the modeling strategy specifies that it should be done as the final step.
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%207.0%20-%20Chamfers.JPG)
+
+![image alt](https://github.com/letrejo1/cad-stirling-beta-engine/blob/main/images/Step%207.1%20-%20Chamfers.JPG)
 
 
