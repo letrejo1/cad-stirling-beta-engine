@@ -24,7 +24,7 @@ In an era where the focus and new developments center on electric motors and bat
 
 The parts were modeled in Autodesk Inventor version 2021, following certain guidelines of a methodology called “Resilient Modeling Strategy” or “Resilient CAD Modeling,” which aims to create robust digital models that are easy to edit, with a feature tree organized according to a hierarchy and sequence of actions. I would like to thank industry experts such as Richard Gebhard (Assembly Technology Inc.) and Rafael Testai (SolidWorks Content Creator), who taught the most important aspects of this method through videos and webinars.
 
-A RAR archive called "Final_Project" containing the CAD model has been added to the repository; this archive includes the .ipt part files, the .iam assembly file, and the .ipj project file for viewing in their native formats.
+A Zip archive called "Final_Project" containing the CAD model has been added to the repository; this archive includes the .ipt part files, the .iam assembly file, and the .ipj project file for viewing in their native formats.
 
 I am also including the following link to Autodesk Viewer for viewing the files in a web browser:
 https://autode.sk/3TwZs9v
